@@ -4,7 +4,7 @@
 
 package:
   name: {{ name|lower }}
-  version: {{ version }}+0.py37fix
+  version: {{ version }}.post0
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
@@ -14,7 +14,7 @@ source:
     - python37-PEP479-fix.patch
 
 build:
-  number: 1001
+  number: 0
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
