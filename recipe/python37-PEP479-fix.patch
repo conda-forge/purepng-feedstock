@@ -1,0 +1,22 @@
+diff -Naru purepng-0.2.0/code/png/png.py purepng-0.2.0-fixed/code/png/png.py
+--- purepng-0.2.0/code/png/png.py	2016-09-30 13:25:53.000000000 +0200
++++ purepng-0.2.0-fixed/code/png/png.py	2019-04-17 17:43:50.654628441 +0200
+@@ -345,9 +345,16 @@
+ 
+     def gen():
+         """Generator that returns first and proxy other items from source"""
+-        yield one
++        try:
++            yield one
++        except StopIteration:
++            return
++
+         while True:
+-            yield next(it)
++            try:
++                yield next(it)
++            except StopIteration:
++                break
+     return (one, gen())
+ 
+ 
