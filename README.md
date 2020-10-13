@@ -5,9 +5,13 @@ Home: https://github.com/scondo/purepng
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/purepng-feedstock/blob/master/LICENSE.txt)
 
 Summary: Pure Python library for PNG image encoding/decoding
+
+Development: https://github.com/scondo/purepng
+
+Documentation: http://purepng.readthedocs.io/en/latest/
 
 PurePNG allows PNG image files to be read and written using pure Python. PurePNG can read and write all PNG formats. PNG supports a generous variety of image formats: RGB or greyscale, with or without an alpha channel; and a choice of bit depths from 1, 2 or 4 (as long as you want greyscale or a pallete), 8, and 16 (but 16 bits is not allowed for palettes). A pixel can vary in size from 1 to 64 bits: 1/2/4/8/16/24/32/48/64. In addition a PNG file can be interlaced or not. An interlaced file allows an incrementally refined display of images being downloaded over slow links (yet it's not implemented in PurePNG for now).
 
@@ -32,113 +36,107 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_python2.7.____cpython</td>
+              <td>linux_64_python3.6.____73_pypy</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=832&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/purepng-feedstock?branchName=master&jobName=linux&configuration=linux_python2.7.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/purepng-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.6.____73_pypy" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_python3.6.____73_pypy</td>
+              <td>linux_64_python3.6.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=832&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/purepng-feedstock?branchName=master&jobName=linux&configuration=linux_python3.6.____73_pypy" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/purepng-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.6.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_python3.6.____cpython</td>
+              <td>linux_64_python3.7.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=832&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/purepng-feedstock?branchName=master&jobName=linux&configuration=linux_python3.6.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/purepng-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.7.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_python3.7.____cpython</td>
+              <td>linux_64_python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=832&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/purepng-feedstock?branchName=master&jobName=linux&configuration=linux_python3.7.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/purepng-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.8.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_python3.8.____cpython</td>
+              <td>linux_64_python3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=832&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/purepng-feedstock?branchName=master&jobName=linux&configuration=linux_python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/purepng-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_python2.7.____cpython</td>
+              <td>osx_64_python3.6.____73_pypy</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=832&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/purepng-feedstock?branchName=master&jobName=osx&configuration=osx_python2.7.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/purepng-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.6.____73_pypy" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_python3.6.____73_pypy</td>
+              <td>osx_64_python3.6.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=832&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/purepng-feedstock?branchName=master&jobName=osx&configuration=osx_python3.6.____73_pypy" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/purepng-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.6.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_python3.6.____cpython</td>
+              <td>osx_64_python3.7.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=832&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/purepng-feedstock?branchName=master&jobName=osx&configuration=osx_python3.6.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/purepng-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.7.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_python3.7.____cpython</td>
+              <td>osx_64_python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=832&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/purepng-feedstock?branchName=master&jobName=osx&configuration=osx_python3.7.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/purepng-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.8.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_python3.8.____cpython</td>
+              <td>osx_64_python3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=832&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/purepng-feedstock?branchName=master&jobName=osx&configuration=osx_python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/purepng-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_c_compilervs2008python2.7.____cpython</td>
+              <td>win_64_python3.6.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=832&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/purepng-feedstock?branchName=master&jobName=win&configuration=win_c_compilervs2008python2.7.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/purepng-feedstock?branchName=master&jobName=win&configuration=win_64_python3.6.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_c_compilervs2015python3.6.____cpython</td>
+              <td>win_64_python3.7.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=832&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/purepng-feedstock?branchName=master&jobName=win&configuration=win_c_compilervs2015python3.6.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/purepng-feedstock?branchName=master&jobName=win&configuration=win_64_python3.7.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_c_compilervs2015python3.7.____cpython</td>
+              <td>win_64_python3.8.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=832&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/purepng-feedstock?branchName=master&jobName=win&configuration=win_c_compilervs2015python3.7.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/purepng-feedstock?branchName=master&jobName=win&configuration=win_64_python3.8.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_c_compilervs2015python3.8.____cpython</td>
+              <td>win_64_python3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=832&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/purepng-feedstock?branchName=master&jobName=win&configuration=win_c_compilervs2015python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/purepng-feedstock?branchName=master&jobName=win&configuration=win_64_python3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr>
           </tbody>
         </table>
       </details>
-    </td>
-  </tr>
-  <tr>
-    <td>Linux_ppc64le</td>
-    <td>
-      <img src="https://img.shields.io/badge/ppc64le-disabled-lightgrey.svg" alt="ppc64le disabled">
     </td>
   </tr>
 </table>
