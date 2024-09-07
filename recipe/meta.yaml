@@ -14,12 +14,13 @@ source:
     - python37-PEP479-fix.patch
 
 build:
-  number: 6
+  number: 7
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
   build:
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
   host:
     - python
     - pip
